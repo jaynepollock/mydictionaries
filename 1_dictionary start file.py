@@ -1,5 +1,6 @@
 import random
 
+'''
 phonebook = {}
 phonebook = {'Chris':'555−1111',
              'Katie':'555−2222',
@@ -7,10 +8,6 @@ phonebook = {'Chris':'555−1111',
 
 
 
-mydictionary = dict(m=8, n=9)
-print(mydictionary)
-
-print('Number of key-value pairs:',len(phonebook))
 
 ##key will alwasy be on the lift value will always be on the right
 ##list needs an index value 
@@ -19,7 +16,11 @@ print()
 print('*****  start section 1 - print dictionary ********')
 print()
 
+mydictionary = dict(m=8, n=9)
+print(mydictionary)
 
+print('Number of key-value pairs:',len(phonebook))
+print(type(phonebook))
 
 
 
@@ -35,7 +36,9 @@ print()
 print('*****  start section 2 - search dictionary ********')
 print()
 
-print(phonebook['Chris'])
+#phone = phonebook["chris"]
+# print(phone)
+name = 'Chris'
 
 
 
@@ -84,6 +87,8 @@ print()
 print(phonebook)
 del phonebook
 
+print(phonebook)
+
 
 print()
 print('*****  end section 4 ********')
@@ -99,9 +104,9 @@ print('*****  start section 5 - iterate through keys, values, items ********')
 print()
 
 for key in phonebook:
-    print("The key is: {key} and the value is {phonebook [key]}")
+    print(f"The key is: {key} and the value is {phonebook [key]}")
 
-for value in phonebook.value():
+for value in phonebook.values():
     print(value)
 
 for k, v in phonebook.items():
@@ -188,4 +193,4 @@ print()
 print('*****  end section 9 ********')
 print()
 
-
+'''
